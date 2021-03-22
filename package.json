@@ -15,7 +15,7 @@
     "build:web": "ng build @senzing/sdk-components-web --prod --output-hashing none && node build-web.js",
     "build:webcomponents": "npm run build:web",
     "build:schematics": "./node_modules/.bin/tsc -p ./src/tsconfig.schematics.json && npm run copy:schematics:files && npm run copy:schematics:collection",
-    "copy:schematics:files": "cp --parents -p ./src/schematics/*/files/** ./dist/@senzing/sdk-components-ng/",
+    "copy:schematics:files": "ditto ./src/schematics/*/files/** ./dist/@senzing/sdk-components-ng/",
     "copy:schematics:collection": "cp ./src/schematics/collection.json ./dist/@senzing/sdk-components-ng/schematics/collection.json",
     "clean": "rimraf dist/@senzing/sdk-components-ng",
     "package": "cd ./dist/@senzing/sdk-components-ng/ && npm pack",
