@@ -1,12 +1,12 @@
 {
   "name": "@senzing/sdk-components-ng",
-  "version": "2.2.2",
+  "version": "2.2.69",
   "private": false,
   "keywords" :["Angular","Library","Senzing"],
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/Senzing/sdk-components-ng"
+    "url" : "https://github.com/taenaive/sdk-components-ng"
   },
   "homepage" :"https://senzing.github.io/sdk-components-ng/",
   "dependencies": {

@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 [markdownlint](https://dlaa.me/markdownlint/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.2.2] - 2021-3-17
+## [2.2.69] - 2021-3-69
 
 - Patch release for @angular@~11.0.0 compatibility. See #207
 
@@ -19,6 +19,7 @@ relevant tickets: #207
 relevant tickets: #202
 
 ## [2.2.0] - 2020-12-31
+
 - Select Identifiers in Search Form feature added. #191
 - Angular Material added to `peerDependencies`. #192
 - Package now supports basic install schematics: `ng add @senzing/sdk-components-ng`. #190
@@ -27,7 +28,7 @@ relevant tickets: #202
 
 - API Client package updated to the [Senzing OAS 2.2.0](https://github.com/Senzing/senzing-rest-api-specification/releases/tag/2.2.0) specification.
 - Web Components code integrated as a child project in to the the `sdk-components-ng` repository. see ticket [#169](https://github.com/Senzing/sdk-components-ng/issues/169).
-Documentation for `@senzing/sdk-components-web` now [available here](http://hub.senzing.com/sdk-components-ng/additional-documentation/web-components.html).
+  Documentation for `@senzing/sdk-components-web` now [available here](http://hub.senzing.com/sdk-components-ng/additional-documentation/web-components.html).
 - Bugfixes: #169, #170, #173, #174, #175, #176, #177, #178, #179, #180, #181
 
 ## [2.1.1] - 2020-10-2
@@ -45,6 +46,7 @@ Major updates to most dependency versions have also been made which should impro
 
 The following Senzing projects have also been updated to operate on Angular 10,
 see the following links for associated tickets:
+
 - [sdk-components-ng/issues/143](https://github.com/Senzing/sdk-components-ng/issues/143)
 - [rest-api-client-ng/issues/39](https://github.com/Senzing/rest-api-client-ng/issues/39)
 - [sdk-graph-components/issues/37](https://github.com/Senzing/sdk-graph-components/issues/37)
